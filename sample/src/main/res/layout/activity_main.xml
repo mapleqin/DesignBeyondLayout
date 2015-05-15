@@ -1,0 +1,22 @@
+<com.toaker.designbeyondlayout.DesignBeyondLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/design_beyond_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="#EE8800" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.github.ksoichiro.android.observablescrollview.ObservableListView
+            android:id="@+id/listview"
+            android:dividerHeight="0dp"
+            android:divider="@android:color/transparent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+</com.toaker.designbeyondlayout.DesignBeyondLayout>
